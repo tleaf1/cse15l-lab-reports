@@ -1,1 +1,1 @@
-Omg a text file
+# Welcome to the show 1
