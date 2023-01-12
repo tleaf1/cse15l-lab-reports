@@ -10,4 +10,6 @@ Once you have VSCode downloaded, navigate to where you downloaded it and follow 
 install it on to your computer.
 
 Once you have successfully installed VSCode, it should look something like this: 
+
 ! [Image](VSCode Screen.png)
+<img width="1029" alt="Screen Shot 2023-01-12 at 10 30 20 AM" src="https://user-images.githubusercontent.com/122562580/212164093-86602a06-cc6b-42f4-8b15-784abe134715.png">
