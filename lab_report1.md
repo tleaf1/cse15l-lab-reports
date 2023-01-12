@@ -3,7 +3,7 @@
 
 **Step 1: Installing VSCode**
 
-In order to install VSCode on your device, go to [Link](https://code.visualstudio.com/) and
+In order to install VSCode on your device, go to [the VSCode website](https://code.visualstudio.com/) and
 follow the instructions for your correct operating system (MacOS, Windows, etc.).
 
 Once you have VSCode downloaded, navigate to where you downloaded it and follow the steps to
