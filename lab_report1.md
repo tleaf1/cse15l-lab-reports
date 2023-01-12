@@ -10,4 +10,4 @@ Once you have VSCode downloaded, navigate to where you downloaded it and follow 
 install it on to your computer.
 
 Once you have successfully installed VSCode, it should look something like this: 
-! [Image] (VSCode Screen.png)
+! [Image](VSCode Screen.png)
