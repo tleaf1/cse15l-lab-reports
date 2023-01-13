@@ -19,5 +19,19 @@ In order to remotely connect into a server, go into Visual Studio Code and click
 image of what this looks like is below.
 <img width="1022" alt="Screen Shot 2023-01-12 at 11 47 13 AM" src="https://user-images.githubusercontent.com/122562580/212166284-f357b08f-2251-4640-a4f4-bc0f4f7d6169.png">
 
+Once you have done this you will now ssh into the server. In order to do this, type the command `ssh cs15lwi23zz@ieng6.ucsd.edu` into 
+your console. **Remember**: you must replace the 'zz' in the command with the letters from your course specific account.
 
+If this is your first time accessing this server you will receive a prompt asking if you would like to continue. Type
+`yes` and then press enter. 
+
+You should see something like this:
+<img width="896" alt="Screen Shot 2023-01-12 at 5 40 12 PM" src="https://user-images.githubusercontent.com/122562580/212217492-b87f199c-e7cf-4e3e-9dbd-1447716de61a.png">
+
+Next, you will be prompted to enter your password. Please enter the password associated with your account.
+<img width="324" alt="Screen Shot 2023-01-12 at 5 41 55 PM" src="https://user-images.githubusercontent.com/122562580/212217684-8f5a0b51-a471-4168-841c-bd2250d59208.png">
+
+Congratulations! You have now successfully accessed a remote server!
+
+**Step 3: Testing Out Commands**
 
