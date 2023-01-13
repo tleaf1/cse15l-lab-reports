@@ -38,3 +38,4 @@ You terminal should now look something like this:
 
 **Step 3: Testing Out Commands**
 
+Now we will begin using some basic commands to navigate and understand this server.
