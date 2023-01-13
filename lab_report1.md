@@ -26,7 +26,8 @@ If this is your first time accessing this server you will receive a prompt askin
 `yes` and then press enter. 
 
 You should see something like this:
-<img width="896" alt="Screen Shot 2023-01-12 at 5 40 12 PM" src="https://user-images.githubusercontent.com/122562580/212217492-b87f199c-e7cf-4e3e-9dbd-1447716de61a.png">
+<img width="897" alt="Screen Shot 2023-01-12 at 5 47 26 PM" src="https://user-images.githubusercontent.com/122562580/212218331-9cbf9fd4-b801-4529-8510-62e5a6cfa8ce.png">
+
 
 Next, you will be prompted to enter your password. Please enter the password associated with your account.
 
