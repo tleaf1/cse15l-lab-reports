@@ -29,9 +29,7 @@ You should see something like this:
 <img width="897" alt="Screen Shot 2023-01-12 at 5 47 26 PM" src="https://user-images.githubusercontent.com/122562580/212218331-9cbf9fd4-b801-4529-8510-62e5a6cfa8ce.png">
 
 
-Next, you will be prompted to enter your password. Please enter the password associated with your account.
-
-If your password does not work, please use [this tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to reset your password.
+Next, you will be prompted to enter your password. Please enter the password associated with your account. If your password does not work, please use [this tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to reset your password.
 
 Congratulations! You have now successfully accessed a remote server!
 You terminal should now look something like this:
