@@ -47,6 +47,6 @@ Your screen should look something like this:
 <img width="520" alt="Screen Shot 2023-01-13 at 12 41 34 PM" src="https://user-images.githubusercontent.com/122562580/212415424-01787b17-704d-48ce-8610-a39bc57c5b45.png">
 
 
-Nice! You are now successfully navigating a remote server via the command line. If you wish to exit the terminal you can use the keyboard shortcut `Ctrl-D` or you can type in the command `exit`.
+Nice! You are now successfully navigating a remote server via the command line. If you wish to exit the terminal you can use the keyboard shortcut `Ctrl + D` or you can type in the command `exit`.
 
 For your own practice, here are some other commands you can use to explore this server:
