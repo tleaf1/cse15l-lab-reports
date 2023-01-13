@@ -32,6 +32,8 @@ Next, you will be prompted to enter your password. Please enter the password ass
 <img width="324" alt="Screen Shot 2023-01-12 at 5 41 55 PM" src="https://user-images.githubusercontent.com/122562580/212217684-8f5a0b51-a471-4168-841c-bd2250d59208.png">
 
 Congratulations! You have now successfully accessed a remote server!
+You terminal should now look something like this:
+
 
 **Step 3: Testing Out Commands**
 
