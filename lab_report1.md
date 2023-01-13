@@ -50,3 +50,11 @@ Your screen should look something like this:
 Nice! You are now successfully navigating a remote server via the command line. If you wish to exit the terminal you can use the keyboard shortcut `Ctrl + D` or you can type in the command `exit`.
 
 For your own practice, here are some other commands you can use to explore this server:
+* `cd~` to change directories to your home directory.
+* `cat` along with the file path to a .txt file to displat its text.
+
+Here is an example for you: 
+
+<img width="670" alt="Screen Shot 2023-01-13 at 3 48 34 PM" src="https://user-images.githubusercontent.com/122562580/212438446-c9e5e687-4f08-49d2-b08d-0efa82cf47d4.png">
+
+Thanks for following along and have fun this quarter!
