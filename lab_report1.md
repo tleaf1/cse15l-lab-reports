@@ -39,3 +39,8 @@ You terminal should now look something like this:
 **Step 3: Testing Out Commands**
 
 Now we will begin using some basic commands to navigate and understand this server.
+
+To begin, try putting `pwd` into your terminal to view your current working directory and to see where you are currently at in the server. Next, type the command `ls` to list the items that are in the current directory.
+
+Your screen should look something like this:
+<img width="520" alt="Screen Shot 2023-01-13 at 12 41 34 PM" src="https://user-images.githubusercontent.com/122562580/212415424-01787b17-704d-48ce-8610-a39bc57c5b45.png">
