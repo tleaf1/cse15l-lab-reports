@@ -15,7 +15,7 @@ Once you have successfully installed VSCode, it should look something like this:
 
 **Step 2: Remotely Connecting to a Server**
 
-In order to remotely connect into a server, go into Visual Studio Code and click Terminal -> New Terminal. An
+In order to remotely connect to the server, go into Visual Studio Code and click Terminal -> New Terminal. An
 image of what this looks like is below.
 <img width="1022" alt="Screen Shot 2023-01-12 at 11 47 13 AM" src="https://user-images.githubusercontent.com/122562580/212166284-f357b08f-2251-4640-a4f4-bc0f4f7d6169.png">
 
