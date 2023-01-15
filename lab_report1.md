@@ -1,5 +1,5 @@
 # Lab Report 1
-## Successfully accessing a remote server
+## Logging in to your course-specific account on ieng6
 
 **Step 1: Installing Visual Studio Code**
 
