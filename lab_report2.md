@@ -16,6 +16,10 @@ Once this method is called it checks the path of URI parameter. If the paramter 
 **Second Added Message:**
 <img width="1042" alt="Screen Shot 2023-01-29 at 12 27 38 PM" src="https://user-images.githubusercontent.com/122562580/215354860-0c9eea3f-fedc-417a-a453-5eab6a7b3d3e.png">
 
-Similar to the first added message, in order for this second message to display properly the **handleRequest** method is called again. When this method is called, it will again take in a URL as its argument. In this case, the URL is now `http://localhost:4000/add-message?s=Second String!!` because a different message is being added.
+Similar to the first added message, in order for this second message to display properly the **handleRequest** method is called. When this method is called, it will again take in a URL as its argument. In this case, the URL is now `http://localhost:4000/add-message?s=Second String!!` because a different message is being added.
 
-Since this is the second time the method has been called, `list` is currently carrying the previous message(s) and will concatenate this new message which will also be followed by a concatenated line separator. When this is completed the new value of the string is formatted and returned to the webpage where it displays the previous message(s) followed by the newly added message on a new line.
+When this URL is passed through to the message, if the path is equal to "/add-message" a new string array is instantiated to hold the values of the query that are split at the equal sign. In the same fashion, if the first parameter is equal to "s", the second parameter will be concatenated to the empty string `list `.
+
+Since this is the second time the method has been called, `list` is currently carrying the previous message(s), followed by a line separator, and will concatenate this new message which will also be followed by a concatenated line separator. When this is completed the new value of the string is formatted and returned to the webpage where it displays the previous message(s) followed by the newly added message on a new line.
+
+
