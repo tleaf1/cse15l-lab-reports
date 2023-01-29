@@ -22,4 +22,24 @@ When this URL is passed through to the message, if the path is equal to "/add-me
 
 Since this is the second time the method has been called, `list` is currently carrying the previous message(s), followed by a line separator, and will concatenate this new message which will also be followed by a concatenated line separator. When this is completed the new value of the string is formatted and returned to the webpage where it displays the previous message(s) followed by the newly added message on a new line.
 
+**A Bug in ArrayExamples**
 
+Here is an example of a failure inducing input for the reverseInPlace method:
+```
+@Test
+  public void testReverseInPlace2() {
+    int[] input2 = {1,2,3,4,5};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[] {5,4,3,2,1}, input2);
+  }
+  ```
+  Here is an example of an input that does not produce a failure:
+  ```
+  @Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+  ```
+  
