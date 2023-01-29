@@ -71,5 +71,5 @@ However, by creating a temporary array of the same length, all correct values of
 
 **What I Learned in Lab**
 
-One thing I learned in lab is the structure and function of URLs. Before the lab I did not know that the URL was separated into different parts and thought it was just the name of the website followed by ".com" and that everything after was gibberish. Now I know that it is made up of parts that include the name/location of the website but also is separated into different paths based on where one is navigating as well as queries in order to have the website perform a function.
+One thing I learned in lab is the structure and function of URLs. Before the lab I did not know that the URL was separated into different parts and thought it was just the name of the website followed by ".com" and that everything after was gibberish. Now I know that it is made up of parts that include the name/location of the website but also is separated into different paths based on where one is navigating (my different github repositories as an example) as well as queries in order to have the website perform a function.
 
