@@ -33,7 +33,7 @@ Here is an example of a failure inducing input for the reverseInPlace method:
     assertArrayEquals(new int[] {5,4,3,2,1}, input2);
   }
   ```
-  Here is an example of an input that does not produce a failure:
+Here is an example of an input that does not produce a failure:
   ```
   @Test 
 	public void testReverseInPlace() {
@@ -42,4 +42,33 @@ Here is an example of a failure inducing input for the reverseInPlace method:
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
   ```
-  
+Displayed here is the outcome of running these two inputs in JUnit:
+<img width="643" alt="Screen Shot 2023-01-29 at 1 11 37 PM" src="https://user-images.githubusercontent.com/122562580/215355945-ad3e93f4-7975-4afd-9beb-45d54c8926a1.png">
+
+Here is the original code with the bug that produced the symptom:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i++) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+Here is the updated code with the fix for the bug:
+```
+static void reverseInPlace(int[] arr) {
+    int [] temp = new int[arr.length];
+    for(int i = 0; i < arr.length; i++) {
+      temp[i] = arr[arr.length - i - 1];
+    }
+    for (int k = 0; k < arr.length; k++) {
+      arr[k] = temp[k];
+    }
+  }
+```
+This fix addresses the issue because the original code has the input array updating and assigning new values to itself which causes an incorrect index value to be assigned once the array has iterated through half of its length.
+
+However, by creating a temporary array of the same length, all correct values of the input array can be assigned to the right index location in the temporary array. Once this is done we can update the new values of the input array with the correct values from the temporary array.
+
+**What I Learned in Lab**
+
+
