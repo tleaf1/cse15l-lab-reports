@@ -42,7 +42,7 @@ Here is an example of an input that does not produce a failure:
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
   ```
-Displayed here is the outcome of running these two inputs in JUnit:
+Displayed here are the outcomes of running these two inputs in JUnit:
 <img width="643" alt="Screen Shot 2023-01-29 at 1 11 37 PM" src="https://user-images.githubusercontent.com/122562580/215355945-ad3e93f4-7975-4afd-9beb-45d54c8926a1.png">
 
 Here is the original code with the bug that produced the symptom:
