@@ -15,7 +15,7 @@ In this example, we are usign grep -v in order to see only berlitz1. This is use
   $ ls | grep -v 2
   berlitz1
   ```
-Source(s) for the grep -v command: I used this [wikibooks]https://en.wikibooks.org/wiki/Grep site to understand the grep -v command
+Source(s) for the grep -v command: I used this [wikibooks](https://en.wikibooks.org/wiki/Grep) site to understand the grep -v command
 
 **2) using the grep - **
 
