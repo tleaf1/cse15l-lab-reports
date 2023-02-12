@@ -35,7 +35,7 @@ Source(s) for the grep -w command: My source for this command can be found [here
 
 **3) Using the grep -c command**
 
-Using this command we are able to return a count for the amount of files containing the specified query as well as how many times it appears. Below are some of the results using the keyword "Tiana".
+Using this command we are able to return a count for the amount of files containing the specified query as well as how many times it appears. Below are some of the results using the keyword "Tiana". Note that only the files containing the query have a count above zero.
 ```
 $ grep -c "Tiana" berlitz2/*
 berlitz2/Algarve-History.txt:0
