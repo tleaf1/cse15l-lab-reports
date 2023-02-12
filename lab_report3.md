@@ -17,5 +17,18 @@ In this example, we are usign grep -v in order to see only berlitz1. This is use
   ```
 Source(s) for the grep -v command: I used this [wikibooks](https://en.wikibooks.org/wiki/Grep) site to understand the grep -v command
 
-**2) using the grep - **
+**2) using the grep -w command**
 
+Unlike the grep -v command used previously, grep -w will return results that contain the string that was inputted. Here, instead of filtering out results containing the string Athens, we are returning all results that contain the string Athens.
+```
+$ ls | grep -w Athens
+Athens-History.txt
+Athens-Intro.txt
+Athens-WhatToDo.txt
+Athens-WhereToGo.txt
+```
+However, in this example nothing is returned because the grep -w command is case sensitive. While it may be annoying, it is useful to ensure that you are returning exactly what you need so that your results are not mixed with items that are not needed.
+```
+$ ls | grep -w athens
+```
+Source(s) for the grep -w command: My source for this command can be found [here](https://man7.org/linux/man-pages/man1/grep.1.html).
