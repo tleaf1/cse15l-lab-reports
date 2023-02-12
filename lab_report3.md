@@ -19,7 +19,7 @@ Source(s) for the grep -v command: I used this [wikibooks](https://en.wikibooks.
 
 **2) using the grep -w command**
 
-Unlike the grep -v command used previously, grep -w will return results that contain the string that was inputted. Here, instead of filtering out results containing the string Athens, we are returning all results that contain the string Athens.
+Unlike the grep -v command used previously, grep -w will return results that contain the entire string that was inputted. Here, instead of filtering out results containing the string Athens, we are returning all results that contain the string Athens.
 ```
 $ ls | grep -w Athens
 Athens-History.txt
