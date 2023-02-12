@@ -15,7 +15,7 @@ In this example, we are usign grep -v in order to see only berlitz1. This is use
   $ ls | grep -v 2
   berlitz1
   ```
-Source(s) for the grep -v command: I used this [wikibooks](https://en.wikibooks.org/wiki/Grep) site to understand the grep -v command
+Source(s) for the grep -v command: https://en.wikibooks.org/wiki/Grep
 
 **2) using the grep -w command**
 
@@ -31,7 +31,7 @@ However, in this example nothing is returned because the grep -w command is case
 ```
 $ ls | grep -w athens
 ```
-Source(s) for the grep -w command: My source for this command can be found [here](https://man7.org/linux/man-pages/man1/grep.1.html).
+Source(s) for the grep -w command: https://man7.org/linux/man-pages/man1/grep.1.html
 
 **3) Using the grep -c command**
 
@@ -69,7 +69,7 @@ Here, we can use the grep -c command to see how many directories contain the spe
 $ ls | grep -c berlitz
 2
 ```
-Source(s) for the grep -c command: I used the command man grep on my machine as well as [this](https://qpeng.org/computer/grep.htm) useful website.
+Source(s) for the grep -c command: https://qpeng.org/computer/grep.htm
 
 **4) Using the grep -n command**
 
@@ -87,4 +87,4 @@ $ grep -n "Lucayans" berlitz2/*
 berlitz2/Bahamas-History.txt:6
 berlitz2/Bahamas-History.txt:7
 ```
-
+Source(s) for the grep -n command: https://qpeng.org/computer/grep.htm
