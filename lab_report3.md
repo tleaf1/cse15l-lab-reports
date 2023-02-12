@@ -71,4 +71,20 @@ $ ls | grep -c berlitz
 ```
 Source(s) for the grep -c command: I used the command man grep on my machine as well as [this](https://qpeng.org/computer/grep.htm) useful website.
 
-**4) Using the **
+**4) Using the grep -n command**
+
+Here we are using grep -n in order to display how many files contain the tring "Athens" as well as which specific line they are on. This is useful because instead of just returning the names of the files we can see which specific line they are on in order to make our search faster.
+```
+$ ls | grep -n Athens
+9:Athens-History.txt
+10:Athens-Intro.txt
+11:Athens-WhatToDo.txt
+12:Athens-WhereToGo.txt
+```
+Along with this, the grep -n command can also help us to find line(s) in a text file that contain specific words. Note that I did not include the entirety of the command result as I wanted to highlight the fact that the -n command will include line number of the specified query.
+```
+$ grep -n "Lucayans" berlitz2/*
+berlitz2/Bahamas-History.txt:6
+berlitz2/Bahamas-History.txt:7
+```
+
