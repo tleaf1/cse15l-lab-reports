@@ -32,3 +32,43 @@ However, in this example nothing is returned because the grep -w command is case
 $ ls | grep -w athens
 ```
 Source(s) for the grep -w command: My source for this command can be found [here](https://man7.org/linux/man-pages/man1/grep.1.html).
+
+**3) Using the grep -c command**
+
+Using this command we are able to return a count for the amount of files containing the specified query as well as how many times it appears. Below are some of the results using the keyword "Tiana".
+```
+$ grep -c "Tiana" berlitz2/*
+berlitz2/Algarve-History.txt:0
+berlitz2/Algarve-Intro.txt:0
+berlitz2/Algarve-WhatToDo.txt:0
+berlitz2/Algarve-WhereToGo.txt:0
+berlitz2/Amsterdam-History.txt:0
+berlitz2/Amsterdam-Intro.txt:0
+berlitz2/Amsterdam-WhatToDo.txt:0
+berlitz2/Amsterdam-WhereToGo.txt:0
+berlitz2/Athens-History.txt:0
+berlitz2/Athens-Intro.txt:0
+berlitz2/Athens-WhatToDo.txt:0
+berlitz2/Athens-WhereToGo.txt:0
+berlitz2/Bahamas-History.txt:0
+berlitz2/Bahamas-Intro.txt:0
+berlitz2/Bahamas-WhatToDo.txt:0
+berlitz2/Bahamas-WhereToGo.txt:0
+berlitz2/Bali-History.txt:0
+berlitz2/Bali-WhatToDo.txt:0
+berlitz2/Bali-WhereToGo.txt:0
+berlitz2/Barcelona-History.txt:0
+berlitz2/Barcelona-WhatToDo.txt:0
+berlitz2/Barcelona-WhereToGo.txt:0
+berlitz2/Beijing-History.txt:6
+berlitz2/Beijing-WhatToDo.txt:1
+berlitz2/Beijing-WhereToGo.txt:18
+```
+Here, we can use the grep -c command to see how many directories contain the specified query. This is useful because instead of listing all directories and counting each one individually, we are able to see a quick result with only one command!
+```
+$ ls | grep -c berlitz
+2
+```
+Source(s) for the grep -c command: I used the command man grep on my machine as well as [this](https://qpeng.org/computer/grep.htm) useful website.
+
+**4) Using the **
