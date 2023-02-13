@@ -83,7 +83,7 @@ Tobiass-Air:berlitz2 tobiasleaf$ ls | grep -n Athens
 ```
 Along with this, the grep -n command can also help us to find line(s) in a text file that contain specific words. Note that I did not include the entirety of the command result as I wanted to highlight the fact that the grep -n command will include line number of the specified query. The full result displays the full text of each line.
 ```
-$ grep -n "Lucayans" berlitz2/*
+Tobiass-Air:travel_guides tobiasleaf$ grep -n "Lucayans" berlitz2/*
 berlitz2/Bahamas-History.txt:6
 berlitz2/Bahamas-History.txt:7
 ```
