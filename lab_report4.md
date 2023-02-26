@@ -16,4 +16,4 @@ Keys pressed: `Ctrl` + R, then I typed 'javac' and then `enter`, then `Ctrl` + R
   
 **Step 4: Editing the Java File to Fix the Error**
   
-Keys pressed: 'nano' `Space` 'ListExamples.java' `enter` then `Ctrl` + 
+Keys pressed: 'nano' `Space` '+43' `Space` 'ListExamples.java' `enter` then `<Space><Space>
