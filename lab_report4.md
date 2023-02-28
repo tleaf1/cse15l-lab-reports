@@ -22,7 +22,7 @@ Since the `git clone git@github.com:tleaf1/lab7.git` command was already in the 
   
 **Step 3: Initial Run of JUnit Tests**
 
-**Keys pressed:** Typed 'cd lab7', `Ctrl` + R, then I typed 'javac' and then `enter`, then `Ctrl` + R, then I typed 'java' then `space` and then `enter`.
+**Keys pressed:** Typed 'cd lab7', `<Ctrl> - R`, then I typed 'javac' and then `<enter>`, then `<Ctrl> - R`, then I typed 'java' then `<space>`, `<enter>`
 
 Similar to the last two commands, the commands to run JUnit were already in the bash history so I was able to quickly run them again by using the Ctrl-R command without having to go and copy paste the two commands or remember how to type them all out.
 
@@ -31,7 +31,7 @@ Similar to the last two commands, the commands to run JUnit were already in the 
   
 **Step 4: Editing the Java File to Fix the Error**
   
-**Keys pressed:** I typed 'nano +43 Li' `<tab>` then typed '.java', `<enter>`, `<right>` x12, `<backspace>`, typed '2', `<Ctrl-O>`,`<enter>`, `<Ctrl-X>`. 
+**Keys pressed:** I typed 'nano +43 Li' `<tab>` then typed '.java', `<enter>`, `<right>` x12, `<backspace>`, typed '2', `<Ctrl-O>`, `<enter>`, `<Ctrl-X>`. 
 
 By adding '+43' to my command I was able to have nano open up directly to where the error was in the code, making it easier to quickly make necessary changes so that the tests can successfully pass. Along with this, pressing `<tab>` autofilled the name of the java file without having to type the full name out.
 
