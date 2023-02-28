@@ -4,11 +4,13 @@
 
 **Step 1: Logging in to ieng6**
 
-Keys pressed: `Ctrl` + R, then I typed ssh and then `<enter>` which successfully logged me in. The command `ssh cs15lwi23apz@ieng6.ucsd.edu` was already in the bash search history so I was able to directly find it with the Ctrl-R command.
+Keys pressed: `Ctrl` + R, `Space`, `Enter` which successfully logged me in. The command `ssh cs15lwi23apz@ieng6.ucsd.edu` was already in the bash search history so I was able to directly find it with the Ctrl-R command.
+  <img width="510" alt="Screen Shot 2023-02-27 at 4 53 56 PM" src="https://user-images.githubusercontent.com/122562580/221724084-763398f9-d81f-4367-a969-a4434ef30e43.png">
+
   
 **Step 2: Cloning the Repository for the Task**
   
-Keys pressed: `Ctrl` + R, then I typed git c and then `enter`. Since the `git clone`command was already in the search history I was able to directly access and use the command without repeatedly using the up arrow command or typing the full command out.
+Keys pressed: `Ctrl` + R, typed 'git', `space`, typed 'c', `enter`. Since the `git clone`command was already in the search history I was able to directly access and use the command without repeatedly using the up arrow command or typing the full command out.
   
 **Step 3: Initial Run of JUnit Tests**
 
