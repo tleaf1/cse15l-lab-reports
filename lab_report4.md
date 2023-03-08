@@ -22,7 +22,7 @@ Since the `git clone git@github.com:tleaf1/lab7.git` command was already in the 
   
 **Step 3: Initial Run of JUnit Tests**
 
-**Keys pressed:** `cd lab7<enter><Ctrl-R>javac<enter><Ctrl-R>java<space><enter>`
+**Keys pressed:** `cd<space>lab7<enter><Ctrl-R>javac<enter><Ctrl-R>java<space><enter>`
 
 Similar to the last two commands, the commands to run JUnit were already in the bash history so I was able to quickly run them again by using the Ctrl-R command without having to go and copy paste the two commands or remember how to type them all out.
 
@@ -31,7 +31,7 @@ Similar to the last two commands, the commands to run JUnit were already in the 
   
 **Step 4: Editing the Java File to Fix the Error**
   
-**Keys pressed:** `nano +43 Li <tab>.java<enter><right><right><right><right><right><right><right><right><right><right><right><right><backspace>2<Ctrl-O><enter><Ctrl-X>`. 
+**Keys pressed:** `nano<space>+43<space>Li<tab>.java<enter><right><right><right><right><right><right><right><right><right><right><right><right><backspace>2<Ctrl-O><enter><Ctrl-X>`. 
 
 By adding `+43` to my command I was able to have nano open up directly to where the error was in the code, making it easier to quickly make necessary changes so that the tests can successfully pass. Along with this, pressing `<tab>` autofilled the name of the java file without having to type the full name out. The `<Ctrl-O>` command allows me to save the changes to the java file and `<Ctrl-X>` allows me to exit out of nano and back to the command line.
 
@@ -47,7 +47,7 @@ Since these commands were recently ran, I used the up arrow to quickley access t
 
 **Step 6: Committing and Pushing to GitHub!**
 
-**Keys pressed:** `<Ctrl-R>git a<enter><Ctrl-R>git co<enter><Ctrl-R>git p<enter>` 
+**Keys pressed:** `<Ctrl-R>git<space>a<enter><Ctrl-R>git<space>co<enter><Ctrl-R>git<space>p<enter>` 
 
 Since these three commands ('git add ListExamples.java', 'git commit -m "updated"', and 'git push', respectively) were already in the bash command history I used the 'Ctrl-R' command again to make their execution much quicker.
 
