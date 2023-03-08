@@ -22,7 +22,7 @@ Since the `git clone git@github.com:tleaf1/lab7.git` command was already in the 
   
 **Step 3: Initial Run of JUnit Tests**
 
-**Keys pressed:** Typed 'cd lab7', `<Ctrl-R>javac<enter><Ctrl-R>java<space><enter>`
+**Keys pressed:** `cd lab7<enter><Ctrl-R>javac<enter><Ctrl-R>java<space><enter>`
 
 Similar to the last two commands, the commands to run JUnit were already in the bash history so I was able to quickly run them again by using the Ctrl-R command without having to go and copy paste the two commands or remember how to type them all out.
 
