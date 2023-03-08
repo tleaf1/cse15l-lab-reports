@@ -4,7 +4,7 @@
 
 **Step 1: Logging in to ieng6**
 
-**Keys pressed:** `<Ctrl>-R`, typed 'ssh', `<space>`, `<enter>` 
+**Keys pressed:** `<Ctrl-R>ssh<space><enter>` 
 
 The command `ssh cs15lwi23apz@ieng6.ucsd.edu` was already in the bash search history so I was able to directly access it with the Ctrl-R command. Also since I successfully set up my ssh key, I was able to successfully log in without entering my password.
 
@@ -13,7 +13,7 @@ The command `ssh cs15lwi23apz@ieng6.ucsd.edu` was already in the bash search his
   
 **Step 2: Cloning the Repository for the Task**
   
-**Keys pressed:** `<Ctrl> - R`, typed 'git', `<space>`, typed 'c', `<enter>`. 
+**Keys pressed:** `<Ctrl-R>git<space>c<enter>`
 
 Since the `git clone git@github.com:tleaf1/lab7.git` command was already in the search history I was able to directly access it as well and use the command without repeatedly using the up arrow command or typing the full command out.
 
@@ -22,7 +22,7 @@ Since the `git clone git@github.com:tleaf1/lab7.git` command was already in the 
   
 **Step 3: Initial Run of JUnit Tests**
 
-**Keys pressed:** Typed 'cd lab7', `<Ctrl> - R`, then I typed 'javac' and then `<enter>`, then `<Ctrl> - R`, then I typed 'java' then `<space>`, `<enter>`
+**Keys pressed:** Typed 'cd lab7', `<Ctrl-R>javac<enter><Ctrl-R>java<space><enter>`
 
 Similar to the last two commands, the commands to run JUnit were already in the bash history so I was able to quickly run them again by using the Ctrl-R command without having to go and copy paste the two commands or remember how to type them all out.
 
@@ -31,9 +31,9 @@ Similar to the last two commands, the commands to run JUnit were already in the 
   
 **Step 4: Editing the Java File to Fix the Error**
   
-**Keys pressed:** I typed 'nano +43 Li' `<tab>` then typed '.java', `<enter>`, `<right>` x12, `<backspace>`, typed '2', `<Ctrl-O>`, `<enter>`, `<Ctrl-X>`. 
+**Keys pressed:** `nano +43 Li <tab>.java<enter><right><right><right><right><right><right><right><right><right><right><right><right><backspace>2<Ctrl-O><enter><Ctrl-X>`. 
 
-By adding '+43' to my command I was able to have nano open up directly to where the error was in the code, making it easier to quickly make necessary changes so that the tests can successfully pass. Along with this, pressing `<tab>` autofilled the name of the java file without having to type the full name out.
+By adding `+43` to my command I was able to have nano open up directly to where the error was in the code, making it easier to quickly make necessary changes so that the tests can successfully pass. Along with this, pressing `<tab>` autofilled the name of the java file without having to type the full name out. The `<Ctrl-O>` command allows me to save the changes to the java file and `<Ctrl-X>` allows me to exit out of nano and back to the command line.
 
 <img width="840" alt="Screen Shot 2023-02-27 at 5 08 58 PM" src="https://user-images.githubusercontent.com/122562580/221726140-963f89d8-5ebd-4333-8b64-25a6ec7ac16e.png">
 
@@ -47,7 +47,7 @@ Since these commands were recently ran, I used the up arrow to quickley access t
 
 **Step 6: Committing and Pushing to GitHub!**
 
-**Keys pressed:** `<Ctrl-R>`, then I typed 'git a', `<enter>`; `<Ctrl-R>`, then I typed 'git co', `<enter>`; `<Ctrl-R>`, then I typed 'git p', `<enter>`. 
+**Keys pressed:** `<Ctrl-R>git a<enter><Ctrl-R>git co<enter><Ctrl-R>git p<enter>` 
 
 Since these three commands ('git add ListExamples.java', 'git commit -m "updated"', and 'git push', respectively) were already in the bash command history I used the 'Ctrl-R' command again to make their execution much quicker.
 
