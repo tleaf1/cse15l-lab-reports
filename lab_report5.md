@@ -4,7 +4,7 @@
 
 **Overview:** The `ls` command is used to view a list of files or other sub-directories that are in the current working directory. ([Source](https://www.atatus.com/blog/ls-command-in-linux-with-example/))
 
-1) Using the `ls -R` command.
+**1) Using the `ls -R` command.**
 
 By using the `ls -R` command, we are able to view all the files that exist in the subdirectories of the current directory we are working in. This is useful because instead of going into each directory to find a file we are looking for we can quickly view all subdirectories to find the correct one.
 
@@ -16,7 +16,7 @@ In this example we are able to use the `grep` command in conjunction with the `l
 
 Source(s) used for the `ls -R` command: https://www.hostinger.com/tutorials/linux-commands
 
-2) Using the `ls -lh` command.
+**2) Using the `ls -lh` command.**
 
 Here, we are able to view the files that exist within our current working directory as well as the size of the files. This is useful and important because if storage space is ever an issue we can see if we can remove any files to free up space.
 
@@ -28,7 +28,7 @@ Along with this, this command also gives us the time and date that different fil
 
 Source(s) used for the `ls -lh` command: https://www.hostinger.com/tutorials/linux-commands
 
-3) Using the `ls -t` command.
+**3) Using the `ls -t` command.**
 
 By using the `ls -t` command, we are able to view files in the order of when they were created. This is useful because if someone had poor naming conventions when making files we would be able to see them in the order of their creation. This can greatly assist in troubleshooting issues.
 
@@ -40,7 +40,7 @@ Here, we can also use this command in order to see which files are more up to da
 
 Source(s) used for the `ls -t` command: https://www.atatus.com/blog/ls-command-in-linux-with-example/
 
-4) Using the `ls -p` command.
+**4) Using the `ls -p` command.**
 
 This command allows the user to see which elements in the output of ls are directories. This is useful because instead of looking one by one at different files, we can immediately see if a file is a directory or not.
 
