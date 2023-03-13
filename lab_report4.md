@@ -49,7 +49,7 @@ Since these commands were recently ran, I used the up arrow to quickley access t
 
 **Keys pressed:** `<Ctrl-r>git<space>a<enter><Ctrl-r>git<space>co<enter><Ctrl-r>git<space>p<enter>` 
 
-Since these three commands ('git add ListExamples.java', 'git commit -m "updated"', and 'git push', respectively) were already in the bash command history I used the `<Ctrl-r>` command again to make their execution much quicker.
+Since these three commands (`git add ListExamples.java`, `git commit -m "updated"`, and `git push`, respectively) were already in the bash command history I used the `<Ctrl-r>` command again to make their execution much quicker.
 
 <img width="834" alt="Screen Shot 2023-02-27 at 5 17 27 PM" src="https://user-images.githubusercontent.com/122562580/221727742-814b8904-bfce-458e-bdfa-bb2b631465da.png">
 
