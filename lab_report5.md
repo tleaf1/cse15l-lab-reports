@@ -40,4 +40,14 @@ Here, we can also use this command in order to see which files are more up to da
 
 Source(s) used for the `ls -t` command: https://www.atatus.com/blog/ls-command-in-linux-with-example/
 
-4) Using the `ls -` command.
+4) Using the `ls -p` command.
+
+This command allows the user to see which elements in the output of ls are directories. This is useful because instead of looking one by one at different files, we can immediately see if a file is a directory or not.
+
+<img width="653" alt="Screen Shot 2023-03-13 at 4 14 51 PM" src="https://user-images.githubusercontent.com/122562580/224852902-4fa4cebd-aef9-4c4e-84bd-3ca39d825e85.png">
+
+Here, we can see that there are a mix of files and by uing the `ls -p` command we can quickly identify which ones are directories. This can help us in troubleshooting as well as debugging because sometimes we might mistakenly try to access a file and be unaware that it is a directory. By using this command, we can ease the burden when dealing with many different types of files or very nested directories.
+
+<img width="724" alt="Screen Shot 2023-03-13 at 4 18 13 PM" src="https://user-images.githubusercontent.com/122562580/224853319-5e3aad0c-3051-4487-8ae6-17ddf3130bd7.png">
+
+Source(s) used for the `ls -p` command: https://www.atatus.com/blog/ls-command-in-linux-with-example/
